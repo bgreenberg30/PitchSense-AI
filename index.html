@@ -10,12 +10,12 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
+            color: #2a2a2a;
+            background-color: #eef2f6;
         }
 
         header {
-            background: #333;
+            background: #1f3b4d;
             color: #fff;
             padding: 20px 0;
         }
@@ -44,7 +44,7 @@
         }
 
         header nav ul li a:hover {
-            color: #00bcd4;
+            color: #ffcc00;
         }
 
         #hero {
@@ -55,15 +55,15 @@
         }
 
         #hero .cta {
-            background: #00bcd4;
-            color: #fff;
+            background: #ffcc00;
+            color: #1f3b4d;
             padding: 10px 20px;
             text-decoration: none;
             transition: background 0.3s;
         }
 
         #hero .cta:hover {
-            background: #0097a7;
+            background: #e6b800;
         }
 
         .container {
@@ -98,8 +98,8 @@
         }
 
         #contact form button {
-            background: #00bcd4;
-            color: #fff;
+            background: #ffcc00;
+            color: #1f3b4d;
             border: none;
             padding: 10px;
             cursor: pointer;
@@ -107,22 +107,40 @@
         }
 
         #contact form button:hover {
-            background: #0097a7;
+            background: #e6b800;
         }
 
         footer {
-            background: #333;
+            background: #1f3b4d;
             color: #fff;
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        .logo-text {
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>PitchSense AI</h1>
+            <div class="logo-text">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="48" stroke="#ffcc00" stroke-width="4" fill="none" />
+                    <path d="M30 70 Q50 20 70 70" stroke="#ffcc00" stroke-width="4" fill="none" />
+                    <circle cx="50" cy="50" r="5" fill="#1f3b4d" />
+                </svg>
+                <h1>PitchSense AI</h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#about">About Us</a></li>
@@ -188,4 +206,5 @@
     </footer>
 </body>
 </html>
+
 
