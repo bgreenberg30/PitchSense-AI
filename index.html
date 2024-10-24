@@ -1,1 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PitchSense AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        #hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        #hero .cta {
+            background: #00bcd4;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        #hero .cta:hover {
+            background: #0097a7;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #features .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        #features .feature-item {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #contact form input, #contact form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        #contact form button {
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        #contact form button:hover {
+            background: #0097a7;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PitchSense AI</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Revolutionizing Baseball Injury Prevention with AI</h2>
+            <p>Advanced AI-driven technology for tracking pitcher biomechanics, preventing injuries, and optimizing performance.</p>
+            <a href="#contact" class="cta">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About PitchSense AI</h2>
+            <p>PitchSense AI uses cutting-edge computer vision and AI to analyze pitcher mechanics, providing actionable insights to prevent injuries and enhance performance. Our mission is to keep athletes healthier, extend careers, and improve the overall safety of the game.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3>AI-Powered Motion Tracking</h3>
+                    <p>Real-time pose estimation and analysis of pitcher arm angles, shoulder, and elbow stress.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Predictive Injury Model</h3>
+                    <p>Uses historical and real-time data to predict potential injury risks, allowing proactive rest and training adjustments.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Custom Performance Reports</h3>
+                    <p>Detailed, data-driven reports tailored to each pitcher, helping coaches optimize performance while minimizing injury risk.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Interested in learning more or scheduling a demo? Get in touch with us!</p>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PitchSense AI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
 
