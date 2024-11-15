@@ -1,6 +1,6 @@
 # PitchSense-AI
 
-![image](https://github.com/user-attachments/assets/76b506da-e858-4bc0-8ccf-08fa446c1f87)
+![image](https://github.com/user-attachments/assets/758c9e99-4c7b-449a-9329-280d44769711)
 
 
 [Pitch Deck](https://docs.google.com/presentation/d/1bBqnGZK3kVNsKN3sEE6P6c8M306hu-2K2xoGt3lNUZI/edit#slide=id.p)
