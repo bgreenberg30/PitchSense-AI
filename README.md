@@ -11,5 +11,3 @@
 
 [Youtube Video](https://www.youtube.com/watch?v=69hbUE1cEuo)
 
-[Demo](https://musical-umbrella-pjgvp4j6g7x6364r6-5000.app.github.dev/)
-
